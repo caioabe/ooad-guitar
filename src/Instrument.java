@@ -17,6 +17,10 @@ public class Instrument {
         return price;
     }
 
+    public void setPrice(float price) {
+        this.price = (double)price;
+    }
+
     public InstrumentSpec getSpec() {
         return spec;
     }
